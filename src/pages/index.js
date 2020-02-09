@@ -57,7 +57,7 @@ class HomeIndex extends React.Component {
                         <p>I currently am working in email marketing, designing and building email templates and landing pages, I previously have done work for small businesses, nonprofits, and media companies.</p>
                         <p>I do Web Design, Web Development, Email Development,  and Web Analytics</p>
                         <ul className="actions">
-                            <li><a href="https://docs.google.com/document/d/1oLZZzUmuvWXBLcc0CNI71mW8MUYzVRhVbHT7T6K8Dv8/edit?usp=sharing" className="button">My Resume</a></li>
+                            <li><a href="https://docs.google.com/document/d/1oLZZzUmuvWXBLcc0CNI71mW8MUYzVRhVbHT7T6K8Dv8/edit?usp=sharing" className="button" target="_blank">My Resume</a></li>
                         </ul>
                     </section>
 
@@ -78,6 +78,7 @@ class HomeIndex extends React.Component {
                         <div className="row">
                             <div className="12u">
                                 <form name="contact" method="POST" data-netlify="true">
+                                <input type="hidden" name="form-name" value="contact" />
                                     <div className="row uniform 50%">
                                         <div className="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
                                         <div className="6u 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
