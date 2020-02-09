@@ -57,7 +57,7 @@ class HomeIndex extends React.Component {
                         <p>I currently am working in email marketing, designing and building email templates and landing pages, I previously have done work for small businesses, nonprofits, and media companies.</p>
                         <p>I do Web Design, Web Development, Email Development,  and Web Analytics</p>
                         <ul className="actions">
-                            <li><a href="https://docs.google.com/document/d/1oLZZzUmuvWXBLcc0CNI71mW8MUYzVRhVbHT7T6K8Dv8/edit?usp=sharing" className="button" target="_blank">My Resume</a></li>
+                            <li><a href="https://docs.google.com/document/d/1oLZZzUmuvWXBLcc0CNI71mW8MUYzVRhVbHT7T6K8Dv8/edit?usp=sharing" className="button" target="_blank" rel="noopener noreferrer">My Resume</a></li>
                         </ul>
                     </section>
 

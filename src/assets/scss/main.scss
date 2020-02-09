@@ -1242,14 +1242,6 @@
 
 		$size-header-pad: 4em;
 
-		/* Basic */
-
-			h1, h2, h3, h4, h5, h6 {
-				br {
-					display: none;
-				}
-			}
-
 		/* List */
 
 			ul {
@@ -1464,12 +1456,6 @@
 
 			#header {
 				padding: ($size-header-pad * 3) $size-header-pad;
-
-				h1 {
-					br {
-						display: none;
-					}
-				}
 			}
 
 		/* Footer */
