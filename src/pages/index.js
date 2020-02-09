@@ -38,7 +38,7 @@ class HomeIndex extends React.Component {
 
     render() {
         const siteTitle = "Jacob Norwood - Kansas City Web Designer"
-        const siteDescription = "I create engaging websites and emails that help to grow your brand and drive engagment."
+        const siteDescription = "I create engaging websites and emails that help to grow your brand and drive engagement."
 
         return (
             <Layout>
