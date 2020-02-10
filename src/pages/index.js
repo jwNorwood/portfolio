@@ -45,6 +45,7 @@ class HomeIndex extends React.Component {
                 <Helmet>
                         <title>{siteTitle}</title>
                         <meta name="description" content={siteDescription} />
+                        <html lang="en" />
                 </Helmet>
 
                 <div id="main">
@@ -78,13 +79,28 @@ class HomeIndex extends React.Component {
                         <div className="row">
                             <div className="12u">
                                 <form name="contact" method="POST" data-netlify="true">
-                                <input type="hidden" name="form-name" value="contact" />
-                                    <div className="row uniform 50%">
-                                        <div className="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
-                                        <div className="6u 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
-                                        <div className="12u"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
-                                        <div className="12u"><input type="submit" value="Send Message" /></div>
-                                    </div>
+                                    <input type="hidden" name="form-name" value="contact" />
+                                        <div className="row uniform 50%">
+                                          <div className="6u 12u$(xsmall)">
+                                            <label>Name
+                                              <input type="text" name="name" id="name" placeholder="Jacob Norwood" />
+                                            </label>
+                                          </div>
+                                          <div className="6u 12u$(xsmall)">
+                                            <label>E-mail
+                                              <input type="email" name="email" id="email" placeholder="jacobnorwood92@gmail.com" />
+                                              </label>
+                                          </div>
+                                          <div className="12u">
+                                            <label>Message
+                                              <textarea name="message" id="message" placeholder="How can I help?" rows="4"></textarea>
+                                            </label>
+                                          </div>
+                                        </div>
+                                        <div className="12u">
+                                          <input type="submit" value="Send Message" />
+                                        </div>
+
                                 </form>
                             </div>
                         </div>
