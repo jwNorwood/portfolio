@@ -25,7 +25,7 @@ import full08 from '../assets/images/fulls/08.png'
 
 const DEFAULT_IMAGES = [
     { id: '1', source: full01, thumbnail: thumb01, caption: 'Client 1 Landing Page', description: ''},
-    { id: '2', source: full02, thumbnail: thumb02, caption: 'Client 1 Landing Page alt', description: ''},
+    { id: '2', source: full02, thumbnail: thumb02, caption: 'Client 1 Landing Page Recolor', description: ''},
     { id: '3', source: full03, thumbnail: thumb03, caption: 'Client 1 Email Template', description: ''},
     { id: '4', source: full04, thumbnail: thumb04, caption: 'Client 2 Newsletter Landing Page', description: ''},
     { id: '5', source: full05, thumbnail: thumb05, caption: 'Client 2 Newsletter Article', description: ''},
@@ -56,7 +56,7 @@ class HomeIndex extends React.Component {
                         </header>
                         <p>I am a Web / Ux Designer located in Kansas City. I am interested in data driven design, accessibility, and user-centered design.</p>
                         <p>I currently am working in email marketing, designing and building email templates and landing pages, I previously have done work for small businesses, nonprofits, and media companies.</p>
-                        <p>I do Web Design, Web Development, Email Development,  and Web Analytics</p>
+                        <p>I do Web Design, Web Development, Email Development,  and Web Analytics.</p>
                         <ul className="actions">
                             <li><a href="https://docs.google.com/document/d/1oLZZzUmuvWXBLcc0CNI71mW8MUYzVRhVbHT7T6K8Dv8/edit?usp=sharing" className="button" target="_blank" rel="noopener noreferrer">My Resume</a></li>
                         </ul>
