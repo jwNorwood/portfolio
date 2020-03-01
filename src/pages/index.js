@@ -38,7 +38,7 @@ class HomeIndex extends React.Component {
 
     render() {
         const siteTitle = "Jacob Norwood - Kansas City Web Designer"
-        const siteDescription = "I create engaging websites and emails that help to grow your brand and drive engagement."
+        const siteDescription = "Creating moderen, personalized, and engaging websites and emails that help to grow your brand and drive engagement."
 
         return (
             <Layout>
@@ -54,9 +54,9 @@ class HomeIndex extends React.Component {
                         <header className="major">
                             <h2>I design engaging websites with a balance between creativity and functionality</h2>
                         </header>
-                        <p>I am a Web / Ux Designer located in Kansas City. I am interested in data driven design, accessibility, and user-centered design.</p>
-                        <p>I currently am working in email marketing, designing and building email templates and landing pages, I previously have done work for small businesses, nonprofits, and media companies.</p>
-                        <p>I do Web Design, Web Development, Email Development,  and Web Analytics.</p>
+                        <p>I am a Web / UX Designer located in Kansas City. I am interested in data driven design, accessibility, and user-centered design.</p>
+                        <p>I currently am working in email marketing where I design and build both email templates and landing pages. I previously have done work for small businesses, nonprofits, and media companies.</p>
+                        <p>If you are looking for a compleatly new website or updates to your current site, I will work within your budget to help deliver a result that helps you accomplish your goals in expanding your brand online.</p>
                         <ul className="actions">
                             <li><a href="https://docs.google.com/document/d/1oLZZzUmuvWXBLcc0CNI71mW8MUYzVRhVbHT7T6K8Dv8/edit?usp=sharing" className="button" target="_blank" rel="noopener noreferrer">My Resume</a></li>
                         </ul>
@@ -74,6 +74,15 @@ class HomeIndex extends React.Component {
                     </section>
 
                     <section id="three">
+                    <h2>What I can do</h2>
+                    <ul>
+                      <li>Web Design</li>
+                      <li>Custom HTML Email</li>
+                      <li>Custom Wordpress Design</li>
+                      <li>Website performance optimization</li>
+                      <li>Web Analytics</li>
+                      <li>A / B Testing</li>
+                    </ul>
                         <h2>Lets Work Together</h2>
                         <p>Need help on a website or extra help on your latest marketing campaign? Lets talk and see how I can help!</p>
                         <div className="row">
@@ -90,6 +99,9 @@ class HomeIndex extends React.Component {
                                             <label>E-mail
                                               <input type="email" name="email" id="email" placeholder="jacobnorwood92@gmail.com" />
                                               </label>
+                                          </div>
+                                          <div class="hidden">
+                                            <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
                                           </div>
                                           <div className="12u">
                                             <label>Message

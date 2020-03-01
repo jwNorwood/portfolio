@@ -44,7 +44,10 @@
 	$size-header-pad: 2.5em;
 
 /* Basic */
-
+	.hidden{
+		display: none;
+	}
+	
 	body {
 		background: _palette(bg);
 
@@ -564,6 +567,7 @@
 
 		li {
 			padding-left: 0.25em;
+			font-size: 17pt;
 		}
 	}
 
@@ -574,6 +578,7 @@
 
 		li {
 			padding-left: 0.5em;
+			font-size: 17pt;
 		}
 
 		&.alt {
