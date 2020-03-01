@@ -97,7 +97,7 @@ class HomeIndex extends React.Component {
                                           </div>
                                           <div className="6u 12u$(xsmall)">
                                             <label>E-mail
-                                              <input type="email" name="email" id="email" placeholder="jacobnorwood92@gmail.com" />
+                                              <input type="email" name="email" id="email" placeholder="name@mail.com" />
                                               </label>
                                           </div>
                                           <div class="hidden">
