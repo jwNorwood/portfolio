@@ -56,7 +56,7 @@ class HomeIndex extends React.Component {
                         </header>
                         <p>I am a Web / UX Designer located in Kansas City. I am interested in data driven design, accessibility, and user-centered design.</p>
                         <p>I currently am working in email marketing where I design and build both email templates and landing pages. I previously have done work for small businesses, nonprofits, and media companies.</p>
-                        <p>If you are looking for a compleatly new website or updates to your current site, I will work within your budget to help deliver a result that helps you accomplish your goals in expanding your brand online.</p>
+                        <p>If you are looking for a completely new website or updates to your current site, I will work within your budget to help deliver a result that helps you accomplish your goals in expanding your brand online.</p>
                         <ul className="actions">
                             <li><a href="https://docs.google.com/document/d/1oLZZzUmuvWXBLcc0CNI71mW8MUYzVRhVbHT7T6K8Dv8/edit?usp=sharing" className="button" target="_blank" rel="noopener noreferrer">My Resume</a></li>
                         </ul>
