@@ -24,12 +24,13 @@ import full07 from '../assets/images/fulls/07.png'
 import full08 from '../assets/images/fulls/08.png'
 
 const DEFAULT_IMAGES = [
-    { id: '1', source: full01, thumbnail: thumb01, caption: 'Client 1 Landing Page', description: ''},
-    { id: '2', source: full02, thumbnail: thumb02, caption: 'Client 1 Landing Page Recolor', description: ''},
-    { id: '3', source: full03, thumbnail: thumb03, caption: 'Client 1 Email Template', description: ''},
-    { id: '4', source: full04, thumbnail: thumb04, caption: 'Client 2 Newsletter Landing Page', description: ''},
-    { id: '5', source: full05, thumbnail: thumb05, caption: 'Client 2 Newsletter Article', description: ''},
-    { id: '6', source: full06, thumbnail: thumb06, caption: 'Client 3 Landing Page', description: ''},
+  
+    { id: '1', source: full04, thumbnail: thumb04, caption: 'thesummit.events', description: 'An events webpage advertising a conference and taking signups for atteendees and sponsors', link:'http://thesummit.events/'},
+    { id: '2', source: full01, thumbnail: thumb01, caption: 'Client 1 Landing Page', description: 'Took inspiration from clients social media posts and elements of their website to give them a contemperary look for the landing pages and email templates'},
+    { id: '3', source: full02, thumbnail: thumb02, caption: 'Client 1 Landing Page Alt', description: ''},
+    { id: '4', source: full03, thumbnail: thumb03, caption: 'Client 1 Email Template', description: ''},
+    { id: '5', source: full05, thumbnail: thumb05, caption: 'Client 2 Newsletter Article', description: 'Newsletter article template for fortune 500 company'},
+    { id: '6', source: full06, thumbnail: thumb06, caption: 'Client 3 Landing Page', description: 'Landing page template for smaller morgage loan company'},
     { id: '7', source: full07, thumbnail: thumb07, caption: 'Columbia Daily Tribune', description: 'I worked on a website redesign as part of a team and worked on developing new features'},
     { id: '8', source: full08, thumbnail: thumb08, caption: 'The Move Columbia', description: 'I worked on the design and development of The Move Columbia, a lifestyle focused website.'}
 ];
@@ -65,11 +66,12 @@ class HomeIndex extends React.Component {
                     <section id="two">
                         <h2>Recent Work</h2>
 
-                        <Gallery images={DEFAULT_IMAGES.map(({ id, source, thumbnail, caption, description }) => ({
+                        <Gallery images={DEFAULT_IMAGES.map(({ id, source, thumbnail, caption, description, link }) => ({
                             source,
                             thumbnail,
                             caption,
-                            description
+                            description,
+                            link
                         }))} />
                     </section>
 

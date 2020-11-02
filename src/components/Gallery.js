@@ -21,6 +21,7 @@ class Gallery extends Component {
     }
     renderGallery (images) {
         if (!images) return;
+        console.log(images)
 
         const gallery = images.map((obj, i) => {
             return (
@@ -38,12 +39,15 @@ class Gallery extends Component {
 
                     <h3>{obj.caption}</h3>
                     <p>{obj.description}</p>
+                    {obj.link &&
+                        <a href={obj.link} className="button" target="_blank" rel="noopener noreferrer">View Site</a>
+                    }
                 </article>
             );
         });
 
         return (
-            <div className="row">
+            <div className="row gallery">
                 {gallery}
             </div>
         );

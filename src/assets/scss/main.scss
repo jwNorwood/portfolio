@@ -451,6 +451,23 @@
 		}
 	}
 
+/* Gallery */
+
+	.gallery {
+		flex: 2;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		width: 100%;
+	}
+	
+	img.react-images__view-image--isModal{
+		height: auto;
+		max-height: 95vh;
+		max-width: 100%;
+		user-select: none;
+	}
+
 /* Image */
 
 	.image {
