@@ -25,12 +25,12 @@ import full08 from '../assets/images/fulls/08.png'
 
 const DEFAULT_IMAGES = [
   
-    { id: '1', source: full04, thumbnail: thumb04, caption: 'thesummit.events', description: 'An events webpage advertising a conference and taking signups for atteendees and sponsors', link:'http://thesummit.events/'},
-    { id: '2', source: full01, thumbnail: thumb01, caption: 'Client 1 Landing Page', description: 'Took inspiration from clients social media posts and elements of their website to give them a contemperary look for the landing pages and email templates'},
-    { id: '3', source: full02, thumbnail: thumb02, caption: 'Client 1 Landing Page Alt', description: ''},
-    { id: '4', source: full03, thumbnail: thumb03, caption: 'Client 1 Email Template', description: ''},
-    { id: '5', source: full05, thumbnail: thumb05, caption: 'Client 2 Newsletter Article', description: 'Newsletter article template for fortune 500 company'},
-    { id: '6', source: full06, thumbnail: thumb06, caption: 'Client 3 Landing Page', description: 'Landing page template for smaller morgage loan company'},
+    { id: '1', source: full01, thumbnail: thumb01, caption: 'Platinum Landing Page', description: ''},
+    { id: '2', source: full02, thumbnail: thumb02, caption: 'Platinum Email Template', description: ''},
+    { id: '3', source: full03, thumbnail: thumb03, caption: 'Citibank Newsletter Landing Page', description: ''},
+    { id: '4', source: full04, thumbnail: thumb04, caption: 'Citibank Newsletter Article', description: ''},
+    { id: '5', source: full05, thumbnail: thumb05, caption: 'thesummit.events', description: 'An events webpage advertising a conference and taking signups for atteendees and sponsors', link:'http://thesummit.events/'},
+    { id: '6', source: full06, thumbnail: thumb06, caption: 'Topflite Finacial Landing Page', description: ''},
     { id: '7', source: full07, thumbnail: thumb07, caption: 'Columbia Daily Tribune', description: 'I worked on a website redesign as part of a team and worked on developing new features'},
     { id: '8', source: full08, thumbnail: thumb08, caption: 'The Move Columbia', description: 'I worked on the design and development of The Move Columbia, a lifestyle focused website.'}
 ];
@@ -56,8 +56,7 @@ class HomeIndex extends React.Component {
                             <h2>I design engaging websites with a balance between creativity and functionality</h2>
                         </header>
                         <p>I am a Web / UX Designer located in Kansas City. I am interested in data driven design, accessibility, and user-centered design.</p>
-                        <p>I currently am working in email marketing where I design and build both email templates and landing pages. I previously have done work for small businesses, nonprofits, and media companies.</p>
-                        <p>If you are looking for a completely new website or updates to your current site, I will work within your budget to help deliver a result that helps you accomplish your goals in expanding your brand online.</p>
+                        <p>I have previously worked for small businesses, fortune 500s, nonprofits, and media companies working on emails, landing pages, and web applications.</p>
                         <ul className="actions">
                             <li><a href="https://docs.google.com/document/d/1oLZZzUmuvWXBLcc0CNI71mW8MUYzVRhVbHT7T6K8Dv8/edit?usp=sharing" className="button" target="_blank" rel="noopener noreferrer">My Resume</a></li>
                         </ul>
@@ -79,11 +78,8 @@ class HomeIndex extends React.Component {
                     <h2>What I can do</h2>
                     <ul>
                       <li>Web Design</li>
-                      <li>Custom HTML Email</li>
-                      <li>Custom Wordpress Design</li>
-                      <li>Website performance optimization</li>
+                      <li>Web Development</li>
                       <li>Web Analytics</li>
-                      <li>A / B Testing</li>
                     </ul>
                         <h2>Lets Work Together</h2>
                         <p>Need help on a website or extra help on your latest marketing campaign? Lets talk and see how I can help!</p>

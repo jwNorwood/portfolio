@@ -1017,8 +1017,7 @@
 
 	#main {
 		margin-left: $size-header-width;
-		max-width: 50em + $size-header-pad;
-		padding: ($size-header-pad * 2) $size-header-pad $size-header-pad $size-header-pad;
+		padding: ($size-header-pad * 2) ($size-header-pad * 3) $size-header-pad ($size-header-pad * 3);
 		width: calc(100% - #{$size-header-width});
 
 		> section {
