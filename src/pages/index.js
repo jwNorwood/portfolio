@@ -72,6 +72,10 @@ class HomeIndex extends React.Component {
                             description,
                             link
                         }))} />
+
+                    <ul className="actions">
+                            <li><a href="https://www.behance.net/jacobnorwood3" className="button" target="_blank" rel="noopener noreferrer">View Non Client Designs on Behance</a></li>
+                        </ul>
                     </section>
 
                     <section id="three">
