@@ -117,7 +117,7 @@
 		line-height: 1.5em;
 	}
 
-	h3 {
+	h3, .h3 {
 		font-size: 1.5em;
 		line-height: 1.5em;
 	}
@@ -727,7 +727,7 @@
 					font-size: 10pt;
 				}
 
-				h3 {
+				h3, .h3 {
 					color: _palette(fg-light);
 					left: 0;
 					position: absolute;
