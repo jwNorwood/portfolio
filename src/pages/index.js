@@ -23,8 +23,8 @@ import full06 from '../assets/images/fulls/06.png'
 import full07 from '../assets/images/fulls/07.png'
 import full08 from '../assets/images/fulls/08.png'
 
+//this should be move to the CMS
 const DEFAULT_IMAGES = [
-  
     { id: '1', source: full01, thumbnail: thumb01, caption: 'Platinum Landing Page', description: ''},
     { id: '2', source: full02, thumbnail: thumb02, caption: 'Platinum Email Template', description: ''},
     { id: '3', source: full03, thumbnail: thumb03, caption: 'Citibank Newsletter Landing Page', description: ''},
@@ -35,18 +35,17 @@ const DEFAULT_IMAGES = [
     { id: '8', source: full08, thumbnail: thumb08, caption: 'The Move Columbia', description: 'I worked on the design and development of The Move Columbia, a lifestyle focused website.'}
 ];
 
+const siteTitle = "Jacob Norwood - Kansas City Web Designer"
+const siteDescription = "Web design that works! Creating custom, modern, and engaging websites that help grow your online presence and drive engagement."
+
 class HomeIndex extends React.Component {
-
     render() {
-        const siteTitle = "Jacob Norwood - Kansas City Web Designer"
-        const siteDescription = "Web design that works! Creating custom, modern, and engaging websites that help grow your online presence and drive engagement."
-
         return (
             <Layout>
                 <Helmet>
-                        <title>{siteTitle}</title>
-                        <meta name="description" content={siteDescription} />
-                        <html lang="en" />
+                    <title>{siteTitle}</title>
+                    <meta name="description" content={siteDescription} />
+                    <html lang="en" />
                 </Helmet>
 
                 <div id="main">
@@ -73,18 +72,21 @@ class HomeIndex extends React.Component {
                             link
                         }))} />
 
-                    <ul className="actions">
+                    {/* <ul className="actions">
                             <li><a href="https://www.behance.net/jacobnorwood3" className="button" target="_blank" rel="noopener noreferrer">View Non Client Designs on Behance</a></li>
-                        </ul>
+                        </ul> */}
                     </section>
 
                     <section id="three">
-                    <h2>What I can do</h2>
-                    <ul>
-                      <li>Web Design</li>
-                      <li>Web Development</li>
-                      <li>Web Analytics</li>
-                    </ul>
+                      <h2>What I can do</h2>
+                      <ul>
+                        <li>Web Design</li>
+                        <li>Web Development</li>
+                        <li>Web Analytics</li>
+                      </ul>
+                    </section>
+
+                    <section id="four">
                         <h2>Lets Work Together</h2>
                         <p>Need help on a website or extra help on your latest marketing campaign? Lets talk and see how I can help!</p>
                         <div className="row">
@@ -114,14 +116,11 @@ class HomeIndex extends React.Component {
                                         <div className="12u">
                                           <input type="submit" value="Send Message" />
                                         </div>
-
                                 </form>
                             </div>
                         </div>
                     </section>
-
                 </div>
-
             </Layout>
         )
     }
